@@ -1,0 +1,27 @@
+{
+    "name": "matt/php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rachmat Ardico",
+            "email": "rahmatardiko99@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Matt\\" : "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rachmatardico/php-composer-hello"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "matt/php-composer-hello": "2.0.0",
+        "monolog/monolog" : "2.2.0"
+    }
+}
